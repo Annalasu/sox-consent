@@ -15,7 +15,7 @@ function App() {
           <Form language={language} />
         </main>
         <footer className="bg-white py-4 border-t border-gray-200 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} {language === 'zh' ? '互联网同意书平台' : 'Online Consent Platform'}</p>
+          <p>&copy; {new Date().getFullYear()} {language === 'zh' ? '雨夜同意书平台' : 'Online Consent Platform'}</p>
         </footer>
       </div>
     </FormProvider>
